@@ -24,7 +24,7 @@ func main() {
 
 	p := plot.New()
 
-	p.Title.Text = "Wykres z symulacji"
+	p.Title.Text = "Simulation results"
 	p.X.Label.Text = "X"
 	p.Y.Label.Text = "Y"
 	p.Add(plotter.NewGrid())
@@ -35,10 +35,10 @@ func main() {
 	}
 	p.Add(s)
 
-	if err := p.Save(4*vg.Inch, 4*vg.Inch, "wykres.png"); err != nil {
+	if err := p.Save(4*vg.Inch, 4*vg.Inch, "image.png"); err != nil {
 		panic(err)
 	}
-	fmt.Println("Wykres został zapisany do pliku wykres.png")
+	fmt.Println("Image saved to image.png")
 }
 
 
