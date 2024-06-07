@@ -56,5 +56,5 @@ Based on this result the best fitting function is x^0.5
 
 I would also like to present an image of what this simulation looks like in graphics
 
-![simulation image](wykres.png)
+![simulation image](image.png)
 
